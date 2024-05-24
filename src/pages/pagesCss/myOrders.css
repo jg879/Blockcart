@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+:root {
+    --clr-white: #FFFFFF;
+    --clr-black: #000000;
+    --clr-grey: #707070;
+    --clr-bunker: #131921;
+    --clr-ebony-clay: #232f3e;
+    --clr-orange: #FF9900;
+    --clr-orange-dark: #cc8111;
+}
+
+.containerOrders {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.row{
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-md-12-orders{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-md-3-orders{
+    position: relative;
+    width: 25%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 32px;
+}
+.col-md-2-orders{
+    min-width: 31%;
+}
+
+.order-img{
+    max-width: 60%;
+    height: auto;
+    vertical-align: middle;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.card-title{
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card-orders {
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 250ms ease;
+    box-shadow: 0 0 0 transparent;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+
+.card-body{
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+
+
+.card-orders:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card-text-main {
+    display: flex;
+}
+
+.card-title {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card-subtitle {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.card-text-main p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card-text-main p b {
+    color: var(--clr-orange);
+}
+
+/* .card-text p:last-child {
+    margin-bottom: 0;
+} */
+
+.returnBtn{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid var(--clr-grey);
+    border-radius: 4px;
+    background-color: var(--clr-orange);
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.returnBtn:hover{
+    background-color: var(--clr-orange-dark);
+}

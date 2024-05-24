@@ -1,0 +1,94 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Camera",
+      "category": "electronics",
+      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/camera.jpg",
+      "price": "1",
+      "rating": 4,
+      "stock": 10,
+      "description":"Capture life's moments in stunning detail with our advanced camera. Equipped with high-resolution sensors and powerful optics, it delivers crisp and vibrant images every time. With intuitive controls and versatile shooting modes, it's perfect for both beginners and seasoned photographers. Unleash your creativity and preserve memories effortlessly with our top-notch camera."
+    },
+    {
+      "id": 2,
+      "name": "Drone",
+      "category": "electronics",
+      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/drone.jpg",
+      "price": "2",
+      "rating": 5,
+      "stock": 6,
+      "description":"Explore the skies and capture breathtaking aerial footage with our cutting-edge drone. Featuring advanced stabilization technology and high-definition camera capabilities, it delivers smooth and stunning video footage. With easy-to-use controls and intelligent flight modes, it's perfect for both beginners and experienced pilots. Elevate your photography and videography game today!"
+    },
+    {
+      "id": 3,
+      "name": "Headset",
+      "category": "electronics",
+      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/headset.jpg",
+      "price": "0.25",
+      "rating": 2,
+      "stock": 24,
+      "description": "Experience premium sound quality and comfort with our sleek headset. Perfect for gaming, music, and calls, it features a noise-canceling microphone for crystal-clear communication. Its ergonomic design ensures a snug fit, while universal compatibility and intuitive controls make it a versatile choice for any audio needs. Elevate your experience today!"
+    },
+    {
+      "id": 4,
+      "name": "Shoes",
+      "category": "clothing",
+      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/shoes.jpg",
+      "price": "0.25",
+      "rating": 5,
+      "stock": 3,
+      "description":"Step into style and comfort with our premium shoes. Crafted from high-quality materials, they offer durability and support for all-day wear. Whether you're hitting the gym or strolling through the city, our shoes provide traction and cushioning for every step. Elevate your footwear collection with our stylish and versatile designs."
+    },
+    {
+      "id": 5,
+      "name": "Sunglasses",
+      "category": "clothing",
+      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/sunglasses.jpg",
+      "price": "0.10",
+      "rating": 4,
+      "stock": 12,
+      "description":"Shield your eyes in style with our fashionable sunglasses. Designed with UV protection lenses, they offer both sun safety and timeless elegance. Whether you're lounging on the beach or exploring the city, our sunglasses provide superior clarity and eye comfort. Elevate your look with our chic and functional eyewear."
+    },
+    {
+      "id": 6,
+      "name": "Watch",
+      "category": "clothing",
+      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/watch.jpg",
+      "price": "1.25",
+      "rating": 4,
+      "stock": 0,
+      "description":"Adorn your wrist with sophistication and precision with our exquisite watch collection. Crafted with meticulous attention to detail, our timepieces blend timeless elegance with modern functionality. From classic designs to contemporary styles, each watch exudes luxury and reliability, making it the perfect accessory for any occasion."
+    },
+    {
+      "id": 7,
+      "name": "Rubix Cube",
+      "category": "toys",
+      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/cube.jpg",
+      "price": "0.05",
+      "rating": 4,
+      "stock": 15,
+      "description":"Unlock endless hours of entertainment and mental stimulation with our classic Rubik's Cube. Featuring vibrant colors and smooth-turning mechanism, it challenges your problem-solving skills and enhances spatial reasoning. Whether you're a beginner or a seasoned solver, this iconic puzzle is a must-have for any enthusiast."
+    },
+    {
+      "id": 8,
+      "name": "Train Set",
+      "category": "toys",
+      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/train.jpg",
+      "price": "0.20",
+      "rating": 4,
+      "stock": 0,
+      "description":"Embark on an exciting journey with our deluxe train set. Featuring realistic locomotives, detailed cars, and scenic tracks, it brings the magic of railways to life. Perfect for all ages, this set offers endless hours of imaginative play and creativity. Unleash your inner engineer and create your own miniature world today!"
+    },
+    {
+      "id": 9,
+      "name": "Robot Set",
+      "category": "toys",
+      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/robots.jpg",
+      "price": "0.15",
+      "rating": 3,
+      "stock": 12,
+      "description":"Ignite curiosity and innovation with our dynamic robot set. Packed with customizable parts and intuitive controls, it allows you to build and program your own robotic creations. From simple designs to complex machines, this set offers endless possibilities for learning and experimentation. Unleash your creativity and dive into the world of robotics today!"
+    }
+  ]
+}

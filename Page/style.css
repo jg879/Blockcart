@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+:root {
+    --clr-white: #FFFFFF;
+    --clr-black: #000000;
+    --clr-grey: #707070;
+    --clr-bunker: #131921;
+    --clr-ebony-clay: #232f3e;
+    --clr-orange: #FF9900;
+    --clr-orange-dark: #cc8111;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 250ms ease;
+    box-shadow: 0 0 0 transparent;
+    border-radius: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card-text {
+    padding-left: 15px;
+}
+
+.card-title {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card-subtitle {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.card-text p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card-text p b {
+    color: var(--clr-orange);
+}
+
+/* .card-text p:last-child {
+    margin-bottom: 0;
+} */
+
+
